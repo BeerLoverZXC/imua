@@ -5,8 +5,8 @@ services:
       dockerfile: Dockerfile
     container_name: imua-node
     ports:
-      - "26660:26660"
-      - "26656:26656"
+      - "10660:10660"
+      - "10656:10656"
     restart: unless-stopped
     volumes:
       - imua_volume:/app/.imuad
